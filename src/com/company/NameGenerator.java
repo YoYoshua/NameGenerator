@@ -5,10 +5,9 @@ import java.util.Random;
 
 public class NameGenerator
 {
-    //TODO: Generating random name and surname based on list from FileHandler class
+    //TODO: Different names based on chosen sex
     public String getRandomName(List<String> nameList, List<String> surnameList)
     {
-
         if (nameList.size() == 0 || surnameList.size() == 0)
         {
             return "Something is wrong!";
